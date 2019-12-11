@@ -1,0 +1,148 @@
+{
+  "introduction": {
+    "title": "Local Government Platform",
+    "third-box": [
+      {"icon":  "concepts", "title":  "Concepts", "content": "Look at the concepts we're frequently tackling.", "url":  "concept", "cta":  "On concepts"},
+      {"icon":  "architecture", "title":  "Architecture", "content": "See our proposed architecture - a blend of modern, flexible and maintainable.", "url":  "architecture", "cta":  "About architecture"},
+      {"icon":  "approach", "title":  "Approach", "content": "Learn about how we've approached these problems in the past, and the best practices", "url":  "approach", "cta":  "Our approach"}
+    ]
+  },
+  "concept": {
+    "graphic": {
+      "monolith": ["Legacy Technology", "Northgate", "IBM WebSphere"],
+      "microservice": ["Lambda functions", "Message Queues", "Decopupled Architecture"]
+    },
+    "title": "Let's bring 2019 around",
+    "checklist": [
+      "Local Government is paying far too much to the likes of Civica, Northgate, and others for core systems that are old and expensive to run and change",
+      "Typically, these systems have poor interfaces and do not support modern ways of working and open data standards",
+      "Despite this, councils are often charged 7 figure sums for the license and maintenance of these systems",
+      "GDS has helped set new standards for open, cloud first services in government and in designing them around the user and giving them the highest levels of accessibility",
+      "This document describes a vision for a new platform to support local government that will be developed by councils, for councils, run in the cloud and be low cost to run and maintain"
+    ]
+  },
+  "architecture": {
+    "description": "Made Tech has been helping Hackney Council modernise its housing system and has done so in a way that opens up data, delivers new software designed with users in mind and is low, or no cost to run once built.<br /><br />The new software complies with all GDS Service Design and Technology Code of Practice Standards<br /><br />It is Open and API based.  The APIs conform to the Open (Swagger) API standard.  The APIs at Hackney have been built by various suppliers and HackIT themselves after the standards were agreed<br /><br />The new software and APIs built at Hackney run on AWS cloud and cost ….. to run",
+    "third-box": [
+      {
+        "icon":  "open-source",
+        "title":  "Open Source",
+        "content":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id placerat lectus. Ut et tempor lectus, sit amet placerat mauris. Suspendisse at laoreet sem, et tempus velit. Morbi aliquam lacinia ipsum ac dignissim."
+      },
+      {
+        "icon":  "cloud",
+        "title":  "Cloud",
+        "content":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id placerat lectus. Ut et tempor lectus, sit amet placerat mauris. Suspendisse at laoreet sem, et tempus velit. Morbi aliquam lacinia ipsum ac dignissim."
+      },
+      {
+        "icon":  "microservice",
+        "title":  "Micro-service",
+        "content":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id placerat lectus. Ut et tempor lectus, sit amet placerat mauris. Suspendisse at laoreet sem, et tempus velit. Morbi aliquam lacinia ipsum ac dignissim."
+      }
+    ]
+  },
+  "vision": {
+    "title": "Vision",
+    "content": "Made Tech have worked with Hackney Council over the last 16 months or so to modernise their leagcy housing system, by building APIs, build user-first, cloud-based digital services outside of the core application and upskill Hackney’s in house teams to develop faster using modern engineering tools and approaches.<br /><br />The software built complies to the GDS Services Manual and Technology Code of Practice and is open.  As this develops, it will replace an old legacy application costing around £1M a year to maintain but is impossible to change.<br /><br />We believe we can use this code, approach and technology standards used to, with the support of other local councils, develop a SaaS based platform that can be used across Local Government and severely reduce the cost of running digital local government services.<br /><br />This could save the public sector billions of pounds a year.  This document outlines the platform, approach, technical architecture, standards and",
+    "legacy": {
+      "title": "State of Union",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id placerat lectus. Ut et tempor lectus, sit amet placerat mauris. Suspendisse at laoreet sem, et tempus velit. Morbi aliquam lacinia ipsum ac dignissim."
+    },
+    "local-legacy": {
+      "count": 1000000,
+      "title": "Legacy",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id placerat lectus. Ut et tempor lectus, sit amet placerat mauris. Suspendisse at laoreet sem, et tempus velit. Morbi aliquam lacinia ipsum ac dignissim."
+    },
+    "national-legacy": {
+      "count": 1000000000,
+      "title": "Legacy",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id placerat lectus. Ut et tempor lectus, sit amet placerat mauris. Suspendisse at laoreet sem, et tempus velit. Morbi aliquam lacinia ipsum ac dignissim."
+    }
+  },
+
+  "transform": {
+    "title": "Concept",
+    "checklist": [
+      "The Concept is to modernise key systems across local government working with different councils to do so",
+      "The work at Hackney will form the basis of an open, modern housing system",
+      "Working with LGSS Digital, we will develop a similar open, modern system for Revenue and Benefits",
+      "We hope to work with Lambeth to build adaptors to Northgate's housing system and use the same front end software developed at Hackney"
+    ]
+  },
+
+  "approach": {
+    "title": "Solution & Approach",
+    "description": "We propose to find a number of Local Councils and an infrastructure partner to work on on various parts of the development of a platform for local government in the sharing economy.",
+    "checklist": [
+      "GDS Service Design",
+      "Deliver New Services with Different Councils and Make them easily Accessible to other Councils",
+      "Standards Based, API and Adapter Approach",
+      "Loosely Coupled but Emergent Architecture and on AWS Cloud",
+      "DevOps / Cloud Automation / TDD / CI/CD / Iterative"
+    ]
+  },
+
+  "adaptor": {
+    "checklist": [
+      "Well then",
+      "Oh my lord",
+      "Just checking"
+    ]
+  },
+
+  "modern": {
+    "title": "Data Storage",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id placerat lectus. Ut et tempor lectus, sit amet placerat mauris. Suspendisse at laoreet sem, et tempus velit. Morbi aliquam lacinia ipsum ac dignissim. In accumsan laoreet leo, et tincidunt dolor cursus id. Quisque vel tortor non sem pretium porttitor a feugiat nisi. In aliquam nulla vitae ligula suscipit scelerisque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec lobortis mattis metus, vel scelerisque dolor pharetra nec. Sed quis fringilla mauris.<br /><br />Nullam lacinia quam lacus, at vehicula est rhoncus id. Ut id risus non arcu convallis rhoncus. Quisque venenatis varius libero, quis tincidunt lectus interdum vitae. Duis et accumsan justo, a iaculis ante. Aenean nulla metus, accumsan nec quam quis, pellentesque pretium augue. Integer rutrum viverra bibendum. Etiam placerat pharetra sem, eu congue nibh placerat ut. Suspendisse velit ante, consectetur eget magna at, tristique tincidunt lorem. Nam orci odio, fermentum a est a, bibendum volutpat arcu. Maecenas gravida metus id lectus tristique vehicula.",
+    "third-box": [
+      {"icon": "cloud", "title": "Cloud"},
+      {"icon": "ssl", "title": "SSL/TLS"},
+      {"icon": "modern", "title": "Modern"}
+    ]
+  },
+
+  "storage": {
+    "title": "Data Storage",
+    "third-box": [
+      {"title": "Compliant"},
+      {"title": "Scalable"},
+      {"title": "Future-safe"}
+    ]
+  },
+
+  "self": {
+    "queue": [
+      "AWS SQS",
+      "Apache Kafka",
+      "RabbitMQ"
+    ]
+  },
+
+  "story": {
+    "title": "Adaptor",
+    "description": "We believe that the fastest, and safest way to perform the ETL is to build and deploy an adapter service that allows the frontend to read documents from both the old and the new data store and present them to the user in the most seamless way possible.<br /><br />We recognise that this is likely to be difficult in a legacy system, we will validate its feasibility early in the engagement, alongside the delivery of the find an assessor component. Our backup approach is to make discrete slices of the query space` and bring traffic to the new system in slices of increasing size and complexity. Both of these approaches are detailed in this section.  We note that the existing system appears to maintain GUIDs of addresses. We could temporarily index these GUIDs into our proposed Address Indexing Service, this will allow us to create a hybrid between the adapter approach and a “big bang” migration, where we can intelligently send users to the correct service while migration is ongoing.",
+    "content": "Our preferred approach is to build new front ends and services which are temporarily connected to the data via an adapter service.<br /><br />This service will transparently query both the new and the old datastore, allowing for service continuity while migration and data cleansing is carried out.<br /><br />We believe this will de-risk the project by avoiding a big bang migration, as well as move traffic to the new system as early as possible, building operational confidence."
+  },
+
+  "why": {
+    "title": "Why MadeTech?",
+    "checklist": [
+      "Made Tech teams have an intimate understanding of all aspects of the Government Service Standard and a strong track record helping central and local government adopt these processes and practices.",
+      "GDS regard us as one of the very few vendors that understand how to deliver successfully using an outcome-based contracts.  This ensures we deliver against the highest priorities, maximise value and minimise waste.",
+      "Made Tech are the leaders in delivering digital outcomes whilst upskilling public sector teams in modern software engineering and agile software delivery practices.",
+      "Made Tech delivered GovWifi for GDS using the same approach we are proposing to use for MHCLG.  The Delivery Director at GDS has claimed GovWifi to be one of his top two projects.",
+      "We have a unique approach to inception and knowledge transition and have been hugely successful delivering Beta services where other organisations have undertaken the Alpha.",
+      "Our approach and capabilities mean that we continually design, deliver and validate.  This ensures alignment and reduces risk.",
+      "You have met the Technical and Delivery Leads who will run this project for you.  Their delivery track record is exceptional.  They will deliver!"
+    ]
+  },
+
+  "features": {
+    "third-box": [
+      {"icon":  "", "title":  "Twelve-factor", "content":  "Following Twelve-Factor principals, as they provide a solid foundation for cloud application architectures."},
+      {"icon":  "", "title":  "Architectural Decision Records", "content":  "A lightweight technique for capturing important architectural decisions along with their context and consequences."},
+      {"icon":  "", "title":  "Devops & Cloud Automation", "content":  "Leveraging standard App Engine Flexible Build Packs and Docker containers, alongside techniques like Infrastructure as Code to ensure the provisioning and configuration management of infrastructure follows consistent CI/CD practices."},
+      {"icon":  "", "title":  "Serverless", "content":  "For appropriate workloads, leverage Cloud Functions to reduce the overhead of running application workloads constantly."},
+      {"icon":  "", "title":  "Cloud Security", "content":  "Adopt the standard NCSC Cloud Security Principles and build awareness around the OWASP Top 10 vulnerabilities. Where appropriate leverage SaaS services like Snyk to continuously find and fix vulnerabilities as part of the CI/CD workflow"}
+    ]
+  }
+}

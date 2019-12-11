@@ -1,0 +1,591 @@
+/*
+
+*/
+
+@import url(fonts.css);
+
+body {
+    font-family: "bland", sans-serif;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 80px 0;
+    font-size: 80px;
+    text-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h2 span {
+    font-family: "heart", sans-serif;
+}
+
+p {
+    letter-spacing: 1px;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+a {
+    text-decoration: none;
+    color: #222;
+}
+
+/*
+
+*/
+
+a.button {
+    display: inline-block;
+    border-radius: 5px;
+    line-height: 30px;
+    padding: 0 15px;
+    background: #666;
+    color: #fff;
+    margin-top: 20px;
+}
+
+/*
+
+*/
+
+.container {
+    position: relative;
+    overflow: hidden;
+    clear: both;
+}
+
+/*
+
+*/
+
+.container.show {
+    overflow: visible;
+}
+
+.container.high {
+    z-index: 1;
+}
+
+.container.cancel-bottom {
+    margin-bottom: -80px;
+}
+
+.container.screen {
+    min-height: 100vh;
+}
+
+.container.yellow {
+    background: #fecc2b;
+}
+
+.container.green {
+    background-image: linear-gradient(to right, #1b6a1c, #40c842);
+}
+
+.container.dark {
+    color: #fff;
+}
+
+.container.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.container.fixed + .container {
+    margin-top: 100vh;
+}
+
+.container.non-fixed {
+    position: relative;
+    margin-top: 100vh;
+}
+
+.container.non-fixed + .container {
+    margin-top: -100vh;
+}
+
+.container.darkened:before {
+    background: rgba(0, 0, 0, .8);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: "";
+}
+
+/*
+
+*/
+
+.container .centerer {
+    padding: 80px 0;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1140px;
+    position: relative;
+}
+
+/*
+
+*/
+
+.container.narrow .centerer {
+    width: 640px;
+}
+
+/*
+
+*/
+
+.container.thin .centerer {
+    padding: 0;
+}
+
+/*
+
+*/
+
+.container.narrow .centerer p {
+    text-align: justify;
+}
+
+/*
+
+*/
+
+.tracker {
+    clear: both;
+    overflow: hidden;
+    height: 1px;
+    margin-bottom: -1px;
+}
+
+/*
+
+*/
+
+.third-holder {
+    text-align: center;
+}
+
+.third-box {
+    display: inline-block;
+    vertical-align: top;
+    width: 320px;
+    margin: 0 20px;
+}
+
+.third-box .icon {
+    width: 240px;
+    height: 240px;
+    border-radius: 120px;
+    line-height: 240px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    color: #fff;
+    background: linear-gradient(to right, #1b6a1c, #40c842);
+    font-size: 50px;
+    display: block;
+    margin: 0 auto;
+    font-family: "fa", "brand", sans-serif;
+    margin-bottom: 20px;
+}
+
+.dark .third-box .icon {
+    color: #40c842;
+    background: linear-gradient(to right, #fff, #eee);
+}
+
+.third-box a.button {
+
+}
+
+.third-box input[type="checkbox"].more {
+    display: none;
+}
+
+.third-box label {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    color: #ccc;
+    font-size: 25px;
+    text-align: center;
+    line-height: 50px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.third-box label:before {
+    content: "+";
+}
+
+.third-box input.more:checked + label:before {
+    content: "-";
+}
+
+.third-box p.more {
+    display: none;
+}
+
+.third-box input[type="checkbox"].more:checked ~ p.more {
+    display: block;
+}
+
+/*
+
+*/
+
+.half-page {
+    width: 50%;
+    float: left;
+    min-height: 1px;
+}
+
+.half-page.right {
+    float: right;
+}
+
+.half-page.content {
+    max-width: 570px;
+}
+
+/*
+
+*/
+
+ul.checklist {
+    padding: 0;
+    list-style: none;
+    width: 640px;
+    margin: 0 auto;
+}
+
+ul.checklist li {
+    line-height: 30px;
+    margin: 20px 0;
+    padding-top: 0px;
+}
+
+ul.checklist li:before {
+    content: "\f058";
+    margin-top: 0px;
+    font-size: 30px;
+    display: block;
+    float: left;
+    height: 30px;
+    margin-right: 20px;
+    font-family: "fa", sans-serif;
+}
+
+/*
+
+*/
+
+.logo-holder {
+    width: 320px;
+    margin: 0 auto;
+    height: 40px;
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
+
+.logo-holder img {
+    height: 100%;
+    vertical-align: middle;
+
+}
+
+/*
+
+*/
+
+.graphic {
+    position: absolute;
+    margin-left: -50px;
+    width: 100px;
+    height: 250px;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: contain;
+}
+
+.graphic.wide {
+    width: 200px;
+    margin-left: -100px;
+}
+
+.graphic.antenna:before {
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 80px;
+    height: 60px;
+    margin-left: -40px;
+}
+
+.graphic.signal {
+    width: 15%;
+    margin-left: 25px;
+    margin-right: -100px;
+    transform-origin: left center;
+}
+
+
+
+.graphic.signal.huge {
+    width: 50%;
+}
+
+@keyframes example {
+    0% {margin-left: 0; margin-bottom: 0;}
+    99.9% {margin-left: 18px;}
+    100% {margin-left: 0; margin-bottom: 0;}
+}
+
+.graphic.left {
+    left: 10%;
+}
+
+.graphic.middle-left {
+    left: 25%;
+}
+
+.graphic.left-right {
+    left: 40%;
+}
+
+.graphic.middle {
+    left: 50%;
+}
+
+.graphic.right-left {
+    left: 60%;
+}
+
+.graphic.middle-right {
+    left: 75%;
+}
+
+.graphic.right {
+    left: 90%;
+}
+
+.graphic.signal:after {
+    height: 1px;
+    content: "";
+    margin-right: 50px;
+    display: block;
+    border-top: 3px dashed #000;
+    animation: example 0.5s linear infinite;
+}
+
+.graphic span {
+    background: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    line-height: 20px;
+    position: absolute;
+    top: 50px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
+
+.graphic span:after {
+    border-width: 20px;
+    height: 0;
+    width: 0;
+    position: absolute;
+    bottom: -10px;
+    border-color: transparent transparent black transparent;
+}
+
+.layer-1, .layer-2, .layer-3, .layer-4 {
+    bottom: 110%;
+}
+
+.layer-1 {
+    margin-bottom: 0px;
+}
+
+.layer-2 {
+    margin-bottom: 40px;
+}
+
+.layer-3 {
+    margin-bottom: 80px;
+}
+
+.layer-4 {
+    margin-bottom: 120px;
+}
+
+.clipper {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background: #fecc2b;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
+
+.clipper > div {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+/*
+
+*/
+
+.mountain-1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(images/logo.svg) no-repeat bottom center;
+    background-size: contain;
+}
+
+/*
+
+*/
+
+#introduction {
+    background: url(images/backgrounds/microservices.png) no-repeat bottom center;
+    background-size: cover;
+}
+
+/*
+
+*/
+
+.monolith-1 {
+    background-image: url(images/illustrations/monolith-1.svg);
+}
+
+.monolith-2 {
+    background-image: url(images/illustrations/monolith-2.svg);
+}
+
+.monolith-3 {
+    background-image: url(images/illustrations/monolith-3.svg);
+}
+
+.building-1 {
+    background-image: url(images/illustrations/skyscraper-1.svg);
+}
+
+.building-2 {
+    background-image: url(images/illustrations/skyscraper-2.svg);
+}
+
+.building-3 {
+    background-image: url(images/illustrations/skyscraper-3.svg);
+}
+
+.building-4 {
+    background-image: url(images/illustrations/skyscraper-4.svg);
+}
+
+.microservice-1, .microservice-2, .microservice-3 {
+    background-image: url(images/illustrations/house.svg);
+}
+
+.person-1, .person-2, .person-3, .person-4, .person-5 {
+    background: #0ff;
+}
+
+.graphic.antenna:before {
+    background-image: url(images/illustrations/antenna.svg);
+}
+
+.graphic.antenna.dish:before {
+    background-image: url(images/illustrations/dish.svg);
+}
+
+.adaptor-1, .adaptor-3 {
+    background-image: url(images/illustrations/cylinder-1.svg);
+}
+
+.adaptor-2 {
+    background-image: url(images/illustrations/cylinder-2.svg);
+}
+
+.layer-1, .layer-3 {
+    background-image: url(images/illustrations/layer-1.svg);
+}
+
+.layer-2, .layer-4 {
+    background-image: url(images/illustrations/layer-2.svg);
+}
+
+/*
+
+*/
+
+.icon.concepts:after {
+    content: "\f05a";
+}
+
+.icon.architecture:after {
+    content: "\f1ad";
+}
+
+.icon.approach:after {
+    content: "\f0ae";
+}
+
+.icon.open-source:after {
+    content: "\f41a";
+}
+
+.icon.cloud:after {
+    content: "\f1ad";
+}
+
+.icon.microservice:after {
+    content: "\f1b3";
+}
+
+.icon.cloud:after {
+    content: "\f0c2";
+}
+
+.icon.ssl:after {
+    content: "\f23e";
+}
+
+.icon.modern:after {
+    content: "\f70c";
+}

@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'fa';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/components/com_enhance/assets/media/fa.eot');
+    src: url('/components/com_enhance/assets/media/fa.eot?#iefix') format('embedded-opentype'), url('/components/com_enhance/assets/media/fa.woff2') format('woff2'), url('/components/com_enhance/assets/media/fa.woff') format('woff'), url('/components/com_enhance/assets/media/fa.ttf') format('truetype'), url('/components/com_enhance/assets/media/fa.svg#fontawesome') format('svg');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'brand';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/components/com_enhance/assets/media/brand.eot');
+    src: url('/components/com_enhance/assets/media/brand.eot?#iefix') format('embedded-opentype'), url('/components/com_enhance/assets/media/brand.woff2') format('woff2'), url('/components/com_enhance/assets/media/brand.woff') format('woff'), url('/components/com_enhance/assets/media/brand.ttf') format('truetype'), url('/components/com_enhance/assets/media/brand.svg#fontawesome') format('svg');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'bland';
+    font-style: normal;
+    font-weight: 800;
+    src: url('/assets/fonts/black.eot');
+    src: url('/assets/fonts/black.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/black.woff') format('woff'), url('/assets/fonts/black.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'bland';
+    font-style: normal;
+    font-weight: 700;
+    src: url('/assets/fonts/bold.eot');
+    src: url('/assets/fonts/bland.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/bold.woff') format('woff'), url('/assets/fonts/bold.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'bland';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/assets/fonts/regular.eot');
+    src: url('/assets/fonts/bland.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/regular.woff') format('woff'), url('/assets/fonts/regular.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'heart';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/assets/fonts/heart.eot');
+    src: url('/assets/fonts/heart.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/heart.woff') format('woff'), url('/assets/fonts/heart.ttf') format('truetype');
+    font-display: swap;
+}
